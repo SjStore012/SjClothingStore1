@@ -1,13 +1,12 @@
-
-  body {
+body {
 padding-bottom: 20px;
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7{
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
   cursor: pointer;
 }
 
-.heading1, .heading2, .heading3, .heading4, .heading5, .heading6, .heading7 {
+.heading1, .heading2, .heading3, .heading4, .heading5, .heading6, .heading7, .heading8 {
   color: red;
 }
 
@@ -82,6 +81,13 @@ height: 412.95px
   width: 100%;
 }
 
+
+.image8 {
+  width: 100%;
+  height: 300px;
+}
+
+
 .heading1 {
   position: absolute;
   top: -80px;
@@ -125,6 +131,12 @@ height: 412.95px
 
  .heading7 {
   margin: -450px 180px;
+   font-family: cursive;
+   white-space: nowrap;
+ }
+
+ .heading8 {
+  margin: -380px 170px;
    font-family: cursive;
    white-space: nowrap;
  }
@@ -279,7 +291,11 @@ margin-top: -15px;
         width: 100%;
       }
     
-
+      .image8 {
+        height: 88px;
+        width: 100%;
+       }
+     
 
 
   .heading1 {
@@ -331,9 +347,15 @@ margin-top: -15px;
      margin-top: -125px;
       font-family: cursive;
       font-size: 18px;
-  
+  }
 
-}
+  .heading8 {
+    margin-left: 40px;
+    margin-top: -140px;
+     font-family: cursive;
+     font-size: 18px;
+  }
+
 
 .heading7 {
   margin-left: 35px;
@@ -413,6 +435,7 @@ margin-top: -15px;
 }
  }
   
+
 
 
   
